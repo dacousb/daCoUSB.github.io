@@ -1,0 +1,31 @@
+:root {
+    --background: #eee8d5;
+    --foreground: #073642;
+    --link:       #6c71c4;
+}
+
+* {
+    color: var(--foreground);
+}
+
+header, footer {
+    text-align: center;
+}
+
+body {
+    background-color: var(--background);
+}
+
+a {
+    color: var(--link);
+}
+
+hr {
+    border: 1px dotted var(--foreground);
+}
+
+@media only screen and (min-width: 1025px) {
+    section, hr {
+        margin: 10px 20% 10px 20%;
+    }
+} 

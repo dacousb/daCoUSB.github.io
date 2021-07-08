@@ -50,3 +50,11 @@ hr {
 .info-table {
     margin: 0 auto;
 }
+
+.code {
+    border: 1px dotted black;
+    border-radius: 5px;
+    padding: 4px;
+    text-align: left;
+    word-wrap: break-word;
+}
